@@ -3,8 +3,8 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement, reset, incrementByAmount } from "./Slice1";
-import { updateValue } from "./Slice2";
+import { increment, decrement, reset, incrementByAmount } from "./slice1";
+import { updateValue } from "./slice2";
 
 
 function App() {
