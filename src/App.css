@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #d4a5a5, #f2d0e6); /* a soft pinkish vibe */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Counter heading */
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #6a1b4d;
+}
+
+/* Input + Submit line */
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a1b4d;
+}
+
+.submit-btn {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #6a1b4d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #4e1135;
+}
+
+/* Increment / Decrement / Reset */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #b56576;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-group button:hover {
+  background-color: #94495a;
+}
